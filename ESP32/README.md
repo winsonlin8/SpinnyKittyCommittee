@@ -47,6 +47,31 @@ pio device monitor
 
 Or click the plug icon in VS Code's bottom toolbar.
 
+## Wiring
+
+### ADA254 — MicroSD Card Breakout
+
+| ADA254 Pin | ESP32 Pin | Notes           |
+|------------|-----------|-----------------|
+| 3V         | 3.3V      | Power           |
+| GND        | GND       |                 |
+| CLK        | GPIO 18   | VSPI SCLK       |
+| DO         | GPIO 19   | VSPI MISO       |
+| DI         | GPIO 23   | VSPI MOSI       |
+| CS         | GPIO 5    | Chip select     |
+
+---
+
+<!-- To add a new device, copy the template below and fill it in:
+
+### <Device Name> — <Description>
+
+| <Device> Pin | ESP32 Pin | Notes |
+|--------------|-----------|-------|
+| ...          | ...       | ...   |
+
+-->
+
 ## Adding Libraries
 
 Add dependencies to `platformio.ini` under `lib_deps`:
