@@ -49,7 +49,7 @@ The system is built around two microcontrollers:
 
 ### System Diagram
 
-![System Diagram](system_diagram.png)
+![System Diagram](system_diagram.jpg)
 
 ---
 
