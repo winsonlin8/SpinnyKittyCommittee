@@ -22,7 +22,7 @@
       "keepouts": true,
       "lockedItems": false,
       "otherItems": true,
-      "pads": true,
+      "pads": false,
       "text": true,
       "tracks": true,
       "vias": true,
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PCB.kicad_prl",
+    "filename": "MAX98357.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -97,7 +97,7 @@
       103,
       74,
       103,
-      103
+      0
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SpinnyKitty")(type "KiCad")(uri "${KIPRJMOD}/SpinnyKitty.pretty")(options "")(descr ""))
+)
