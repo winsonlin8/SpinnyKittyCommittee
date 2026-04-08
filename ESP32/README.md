@@ -61,6 +61,36 @@ Or click the plug icon in VS Code's bottom toolbar.
 | CS         | GPIO 5    | Chip select     |
 
 ---
+### MAX98357A — I2S Audio Amplifier
+
+| MAX98357A Pin | ESP32 Pin | Notes |
+|---------------|-----------|-------|
+| VIN           | 5V / VIN  | Power for amplifier; 5V gives better speaker output |
+| GND           | GND       | Common ground |
+| BCLK          | GPIO 26   | I2S bit clock |
+| LRC / WS      | GPIO 25   | I2S word select / left-right clock |
+| DIN           | GPIO 22   | I2S audio data from ESP32 |
+
+---
+
+### Speaker — 4Ω 3W
+
+| Speaker Wire | Connect To     | Notes |
+|--------------|----------------|-------|
+| Wire 1       | MAX98357A OUT+ | Speaker output |
+| Wire 2       | MAX98357A OUT- | Speaker output |
+
+> **Important:** Do **not** connect either speaker terminal to GND.  
+
+---
+
+### Power Notes
+
+| Device | Power Source | Notes |
+|--------|--------------|-------|
+| ESP32 | USB from laptop | Used for programming and testing |
+| ADA254 MicroSD Breakout | ESP32 3.3V | SD breakout powered at 3.3V |
+| MAX98357A | ESP32 5V / VIN | Better volume than powering from 3.3V |
 
 <!-- To add a new device, copy the template below and fill it in:
 
