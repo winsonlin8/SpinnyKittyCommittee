@@ -1,12 +1,13 @@
 (footprint "ESP32_30pin"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 1.27246 -1.395187 -90)
+		(at 1.27246 -1.395187 270)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "7dae1d72-39a5-4349-84b2-41d2c9490555")
 		(effects
 			(font
@@ -16,9 +17,10 @@
 		)
 	)
 	(property "Value" "ESP32_30pin"
-		(at -0.22754 -1.395187 -90)
+		(at -0.22754 -1.395187 270)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "291882b7-babb-432d-9b59-7bb3dfbaf75c")
 		(effects
 			(font
@@ -27,20 +29,8 @@
 			)
 		)
 	)
-	(property "Footprint" "ESP32_30pin"
-		(at 1 -1 -90)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "53dc798d-4219-40a3-85d3-78e083ba0cc6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
-		(at 1 -1 -90)
+		(at 1 -1 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -48,11 +38,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Description" ""
-		(at 1 -1 -90)
+		(at 1 -1 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -60,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -67,10 +59,10 @@
 		(start -13.33 -26.4)
 		(end 14.97 25.1)
 		(stroke
-			(width 0.2)
-			(type default)
+			(width 0.127)
+			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "23667a90-885b-4058-9a8f-f5e5bb526e04")
 	)
@@ -81,53 +73,9 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "24435f8b-d00c-48e6-9e1c-1da94e2cb79a")
-	)
-	(fp_circle
-		(center -10.57 -23.86)
-		(end -10.57 -22.36)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "390c68ef-dbc4-4071-afa5-e7f9fdf92278")
-	)
-	(fp_circle
-		(center -10.57 22.14)
-		(end -10.57 23.64)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "08b50743-5a19-4380-bb32-904b5543a559")
-	)
-	(fp_circle
-		(center 12.43 -23.86)
-		(end 12.43 -22.36)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "53d82059-801a-4d9c-bb25-2e771cc0cc3d")
-	)
-	(fp_circle
-		(center 12.43 22.14)
-		(end 12.43 23.64)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "74120b0f-9468-4ec8-9734-d651a813945a")
 	)
 	(fp_text user "GPIO18"
 		(at 6.5 -2.5 0)
@@ -480,6 +428,18 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "ESP32"
+		(at 0.82 -0.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d430a7f3-5fab-4d77-a39c-2fef14b90a17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(fp_text user "GPIO17"
 		(at 6.5 2.5 0)
 		(unlocked yes)
@@ -530,18 +490,6 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -1.72754 -1.395187 -90)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "d7c47625-8032-4401-8fbc-5f823cb68449")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
 		)
 	)
 	(pad "1" thru_hole oval
@@ -808,6 +756,7 @@
 			"f1ddbf2e-0c81-42b7-ac07-27a34a07c443"
 		)
 	)
+	(embedded_fonts no)
 	(model "${KICAD_USER_3DMODELS}/ESP32-30pin.step"
 		(offset
 			(xyz 0.2 0 2.7)

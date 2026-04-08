@@ -1,4 +1,4 @@
-27106912113499156
+27115791840761422
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -38325,6 +38325,13 @@ Through hole pin header THT 1x06 2.54mm single row
 6
 6
 Connector_PinHeader_2.54mm
+PinHeader_1x06_P2.54mm_Vertical_1
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+Connector_PinHeader_2.54mm
 PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left
 surface-mounted straight pin header, 1x06, 2.54mm pitch, single row, style 1 (pin 1 left)
 Surface mounted pin header SMD 1x06 2.54mm single row style1 pin1 left
@@ -40130,6 +40137,13 @@ Surface mounted pin header SMD 2x40 2.54mm double row
 0
 80
 80
+Connector_PinHeader_2.54mm
+Untitled
+
+
+0
+0
+0
 Connector_PinSocket_1.00mm
 PinSocket_1x02_P1.00mm_Vertical
 Through hole straight socket strip, 1x02, 1.00mm pitch, single row (https://gct.co/files/drawings/bc065.pdf), script generated
@@ -98903,12 +98917,19 @@ ESP32_30pin
 30
 30
 SpinnyKitty
+ICS43434 Breakout
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+SpinnyKitty
 MAX98357
 
 
 0
 11
-8
+10
 SpinnyKitty
 MODULE_254
 
@@ -98924,12 +98945,26 @@ Integrated Circuit
 48
 48
 SpinnyKitty
+Pololu 3V3 Buck
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+SpinnyKitty
+Pololu 5V Buck
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+SpinnyKitty
 USBC_POWER_BREAKOUT
 
 
 0
 8
-3
+8
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking

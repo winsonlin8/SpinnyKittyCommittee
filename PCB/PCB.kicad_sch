@@ -1317,191 +1317,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Motor:Motor_DC"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "M"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Motor_DC"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Motor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DC Motor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Motor_DC_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -3.302) (xy -1.27 0.508) (xy 0 -2.032) (xy 1.27 0.508) (xy 1.27 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Motor_DC_0_1"
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.7272) (xy 0 2.0828)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.524)
-					(radius 3.2512)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.7752) (xy 0 -5.1816)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Motor_DC_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SpinnyKitty:ICS43434 Breakout"
 			(pin_names
 				(offset 1.016)
@@ -4419,7 +4234,7 @@
 	)
 	(symbol
 		(lib_id "SpinnyKitty:ICS43434 Breakout")
-		(at 209.55 129.54 0)
+		(at 255.27 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4428,7 +4243,7 @@
 		(fields_autoplaced yes)
 		(uuid "75a9f856-48c7-4a7a-b004-fdd0a29ce8bc")
 		(property "Reference" "J1"
-			(at 210.82 129.5399 0)
+			(at 256.54 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +4252,7 @@
 			)
 		)
 		(property "Value" "ICS43434 Breakout"
-			(at 210.82 132.0799 0)
+			(at 256.54 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4261,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical"
-			(at 209.55 129.54 0)
+			(at 255.27 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4270,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 129.54 0)
+			(at 255.27 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +4279,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 209.55 129.54 0)
+			(at 255.27 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,7 +4316,7 @@
 	)
 	(symbol
 		(lib_id "SpinnyKitty:LED_Header")
-		(at 251.46 110.49 0)
+		(at 227.33 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4510,7 +4325,7 @@
 		(fields_autoplaced yes)
 		(uuid "78382f98-bdd5-4d67-9e21-46c06c519dfd")
 		(property "Reference" "J4"
-			(at 252.095 102.87 0)
+			(at 227.965 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4333,7 @@
 			)
 		)
 		(property "Value" "LED_Header"
-			(at 252.095 105.41 0)
+			(at 227.965 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +4341,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 251.46 110.49 0)
+			(at 227.33 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +4350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 110.49 0)
+			(at 227.33 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4359,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 251.46 110.49 0)
+			(at 227.33 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,76 +4745,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 55.88 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1ff1e27-5789-4e9a-ad86-f47abb3fb2d7")
-		(property "Reference" "M1"
-			(at 60.96 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor_DC"
-			(at 60.96 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 185.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 185.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 55.88 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ce434d1-2435-4bd3-99f4-193690e8089f")
-		)
-		(pin "2"
-			(uuid "e8a13974-e733-4628-a7f2-20dcec2cfc62")
-		)
-		(instances
-			(project ""
-				(path "/954dff68-cc85-452c-9053-ce35508878d2"
-					(reference "M1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SpinnyKitty:MSPM0 Programming Header")
 		(at 260.35 64.77 0)
 		(unit 1)
@@ -5078,7 +4823,7 @@
 	)
 	(symbol
 		(lib_id "SpinnyKitty:USBC_Power_Breakout")
-		(at 227.33 90.17 0)
+		(at 256.54 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5087,7 +4832,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecaa6672-31ff-40ba-b08b-896e81f7c30b")
 		(property "Reference" "J6"
-			(at 228.6 90.1699 0)
+			(at 257.81 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,7 +4841,7 @@
 			)
 		)
 		(property "Value" "USBC_Power_Breakout"
-			(at 228.6 92.7099 0)
+			(at 257.81 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,7 +4850,7 @@
 			)
 		)
 		(property "Footprint" "SpinnyKitty:USBC_POWER_BREAKOUT"
-			(at 227.33 90.17 0)
+			(at 256.54 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5114,7 +4859,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 90.17 0)
+			(at 256.54 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +4868,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 227.33 90.17 0)
+			(at 256.54 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
