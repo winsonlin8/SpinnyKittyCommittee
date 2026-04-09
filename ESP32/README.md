@@ -80,7 +80,35 @@ Or click the plug icon in VS Code's bottom toolbar.
 | Wire 1       | MAX98357A OUT+ | Speaker output |
 | Wire 2       | MAX98357A OUT- | Speaker output |
 
-> **Important:** Do **not** connect either speaker terminal to GND.  
+> **Important:** Do **not** connect either speaker terminal to GND.
+
+---
+
+> ### ICS-43434 — I2S Microphone
+
+| ICS-43434 Pin | ESP32 Pin | Notes |
+|---------------|-----------|-------|
+| 3V            | 3.3V      | Power (do not use 5V) |
+| GND           | GND       | Common ground |
+| BCLK          | GPIO 14   | I2S bit clock |
+| LRCL          | GPIO 15   | I2S word select (left/right clock) |
+| DOUT          | GPIO 32   | I2S data from mic to ESP32 |
+| SEL           | GND       | Selects LEFT channel (matches current code) |
+
+---
+
+### Microphone Notes
+
+- The ICS-43434 is a **digital I2S microphone**, not analog.
+- `DOUT` sends audio data **to** the ESP32 (input device).
+- The `SEL` pin determines which channel the mic outputs:
+  - `GND` → Left channel  
+  - `3.3V` → Right channel  
+
+> Current firmware uses `I2S_CHANNEL_FMT_ONLY_LEFT`, so `SEL` must be connected to **GND**.
+
+- The microphone must be powered at **3.3V**, not 5V.
+- Ensure a **common ground** with the ESP32 and other components.
 
 ---
 
