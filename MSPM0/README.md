@@ -4,7 +4,7 @@
 | **PA8** | Digital Out | GPIO | IN2 | Motor dir B |
 | **PA12** | PWM Out | TIMG0 | ENA | for PWM |
 | **GND** | Ground | - | GND | shared ground |
-| **5V** | Power | - | VCC | VCC |
+| - | Power | - | VCC | 5V from laptop |
 
 | Jumper on L298N | Status | 
 | :--- | :--- |
