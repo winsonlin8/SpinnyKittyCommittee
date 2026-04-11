@@ -1,0 +1,124 @@
+(footprint "3V3 1.8A Buck"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x04 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 0 -2.38 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bf3ded87-9767-4f0a-9a72-e424d2aff782")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3V3 1.8A Buck"
+		(at 0 10 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3b8e698-5c60-4620-b41d-fbf69c57ce5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bbe9854-a51f-48bd-9c0e-597c9767d580")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5807e58-2af6-40c3-ba74-5edd34674361")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.15 -8.75)
+		(end 6.15 8.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3e444e8e-dbc3-4dd1-8e88-1f75fbcf357d")
+	)
+	(fp_text user "3V3 1.8A Buck"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "96f55410-be57-4b43-986c-2880c8199570")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -4.73 -7.33)
+		(size 2.3 2.3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de92965f-ebd9-4ea7-8282-1932c9a65fd8")
+	)
+	(pad "2" thru_hole circle
+		(at 4.73 -7.33)
+		(size 2.3 2.3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44f2ecf7-abce-4afd-abe8-20dea3f07c9a")
+	)
+	(pad "3" thru_hole circle
+		(at -4.73 7.33)
+		(size 2.3 2.3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a69a4d4-3775-4867-b6c1-79ef5572883a")
+	)
+	(pad "4" thru_hole circle
+		(at 4.73 7.33)
+		(size 2.3 2.3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cb64aedb-f320-4078-9ca9-fbdd34aec05c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

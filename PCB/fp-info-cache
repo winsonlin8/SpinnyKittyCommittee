@@ -1,4 +1,4 @@
-27115791840761422
+27129998877522663
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98910,6 +98910,34 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 48
 48
 SpinnyKitty
+3V3 1.8A Buck
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+SpinnyKitty
+5V 3A Buck
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+8
+8
+SpinnyKitty
+AP33771CFBZ13FA01
+W-DFN3030-14 (Type A1)
+Integrated Circuit
+0
+15
+15
+SpinnyKitty
+AP63203WU7
+AP63203WU-7-5
+Integrated Circuit
+0
+6
+6
+SpinnyKitty
 ESP32_30pin
 
 
@@ -98928,8 +98956,8 @@ MAX98357
 
 
 0
-11
-10
+9
+9
 SpinnyKitty
 MODULE_254
 
@@ -98945,6 +98973,13 @@ Integrated Circuit
 48
 48
 SpinnyKitty
+PSMN2R630YLC115
+LFPAK56; PowerSO8 (SOT669)_2022
+MOSFET (N-Channel)
+0
+6
+6
+SpinnyKitty
 Pololu 3V3 Buck
 Through hole straight pin header, 1x05, 2.54mm pitch, single row
 Through hole pin header THT 1x05 2.54mm single row
@@ -98958,6 +98993,27 @@ Through hole pin header THT 1x05 2.54mm single row
 0
 5
 5
+SpinnyKitty
+SOP50P490X110-11N
+4.748
+Integrated Circuit
+0
+11
+11
+SpinnyKitty
+SOP50P490X110-28N
+DGS0028A
+Integrated Circuit
+0
+28
+28
+SpinnyKitty
+UJ20CVSMTTR68
+UJ20-C-V-SMT-TR-68-1
+Connector
+0
+20
+20
 SpinnyKitty
 USBC_POWER_BREAKOUT
 
