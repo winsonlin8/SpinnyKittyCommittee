@@ -103,6 +103,15 @@ Or click the plug icon in VS Code's bottom toolbar.
 | GPIO 16 (RX)     | PA10 (TX)      | ESP32 receives ← MSPM0 transmits |
 | GND              | GND            | Common ground (required) |
 
+### ESP32 ↔ MSPM0G3507 — PWM Backup Communication
+
+| ESP32 Pin | MSPM0G3507 Pin | Notes |
+|-----------|----------------|-------|
+| GPIO 4    | PA12           | One-way PWM/control signal from ESP32 to MSPM0 |
+| GND       | GND            | Common ground (required) |
+
+---
+
 ---
 
 ### MSPM0 LaunchPad Jumper Configuration
