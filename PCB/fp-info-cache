@@ -1,4 +1,4 @@
-27129998877522663
+27133551829380264
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98973,6 +98973,13 @@ Integrated Circuit
 48
 48
 SpinnyKitty
+PM5402222NLT
+PM5402.222NLT-1
+Inductor
+0
+2
+2
+SpinnyKitty
 PSMN2R630YLC115
 LFPAK56; PowerSO8 (SOT669)_2022
 MOSFET (N-Channel)
@@ -99007,6 +99014,13 @@ Integrated Circuit
 0
 28
 28
+SpinnyKitty
+SRR3818A3R9Y
+SRR3818A-3R9Y-4
+Inductor
+0
+2
+2
 SpinnyKitty
 UJ20CVSMTTR68
 UJ20-C-V-SMT-TR-68-1

@@ -193,7 +193,6 @@
 	)
 	(fp_text user "USBC Power Breakout"
 		(at 0.0508 -8.5344 0)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b8904464-cf7e-4a1a-900d-326ee41a936f")
 		(effects
