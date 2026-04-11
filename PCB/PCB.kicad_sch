@@ -4422,6 +4422,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SpinnyKitty:Motor_Driver_Control"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Motor_Driver_Control_0_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_Driver_Control_1_1"
+				(pin output line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SpinnyKitty:Motor_Driver_Power"
 			(pin_names
 				(offset 1.016)
@@ -7535,6 +7671,10 @@
 		(uuid "6709804a-a93f-49dd-9868-c41df58bc33e")
 	)
 	(no_connect
+		(at 332.74 127)
+		(uuid "72e819cc-0eb4-46e6-9c19-bc7cf83eca5f")
+	)
+	(no_connect
 		(at 332.74 111.76)
 		(uuid "7ed182fd-0c82-4e7e-8eb8-895619ab45c0")
 	)
@@ -7557,6 +7697,10 @@
 	(no_connect
 		(at 332.74 114.3)
 		(uuid "c6c71c73-e00e-43b1-8bb9-bdee8f98cfba")
+	)
+	(no_connect
+		(at 332.74 124.46)
+		(uuid "cbbe9231-1285-4559-bcaf-9e4470f8422d")
 	)
 	(no_connect
 		(at 78.74 185.42)
@@ -9386,6 +9530,26 @@
 		)
 		(uuid "2dfdda97-9011-4e4a-8ec0-2282ab58c1eb")
 	)
+	(label "MD_ENA"
+		(at 163.83 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2eddc4b0-3c5f-46b6-97f8-a36fd99e1100")
+	)
+	(label "ETX_MRX"
+		(at 34.29 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f44f4ed-17db-4b41-9d38-94c84dfd5499")
+	)
 	(label "GND"
 		(at 279.4 193.04 0)
 		(effects
@@ -9395,6 +9559,16 @@
 			(justify left bottom)
 		)
 		(uuid "357e3e31-d130-4417-b099-5c311053d2b2")
+	)
+	(label "MD_IN1"
+		(at 163.83 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "370288db-8d6f-45c8-91d3-6fd004b3bcfd")
 	)
 	(label "SD_CLK"
 		(at 294.64 73.66 180)
@@ -9486,6 +9660,26 @@
 		)
 		(uuid "491e971d-e7ef-4269-b454-f8880d5d608f")
 	)
+	(label "ETX_MRX"
+		(at 163.83 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4baaae71-4cc5-46bd-91ce-431f54aea4d7")
+	)
+	(label "AMP_DIN"
+		(at 332.74 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cfef3ae-61a3-408c-9429-f0256f8dd76c")
+	)
 	(label "DP"
 		(at 78.74 180.34 0)
 		(effects
@@ -9495,6 +9689,16 @@
 			(justify left bottom)
 		)
 		(uuid "4f67ed52-5ea4-4a69-ba62-a3c245d48a33")
+	)
+	(label "PWM_BU"
+		(at 34.29 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51a0f8c6-8b7f-4a20-a8e9-f2ebc9a7bc6e")
 	)
 	(label "GATE_DRV"
 		(at 189.23 184.15 0)
@@ -9585,6 +9789,16 @@
 			(justify right bottom)
 		)
 		(uuid "62e0d24e-d06c-4c99-b33b-3b6b7fe6dde7")
+	)
+	(label "MTX_ERX"
+		(at 34.29 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "63cf62b9-5632-461c-bdc0-56c28471a606")
 	)
 	(label "IC_CC2"
 		(at 78.74 177.8 0)
@@ -9706,6 +9920,16 @@
 		)
 		(uuid "6f4a8332-ed65-408b-b925-0fd7fd28cee4")
 	)
+	(label "AMP_DIN"
+		(at 34.29 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72d839c8-e1f6-40e6-89d0-6210f7a0aa7c")
+	)
 	(label "AMP_BCLK"
 		(at 332.74 119.38 0)
 		(effects
@@ -9715,6 +9939,16 @@
 			(justify left bottom)
 		)
 		(uuid "77562e92-19cd-4663-82f6-d56bdee4c132")
+	)
+	(label "AMP_BCLK"
+		(at 62.23 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80b55c2f-67dc-4edd-a6a3-dda363bffd03")
 	)
 	(label "GATE_DRV"
 		(at 190.5 201.93 0)
@@ -9756,6 +9990,16 @@
 		)
 		(uuid "87cff7e1-6bee-4066-b452-11e20fb250b1")
 	)
+	(label "MTX_ERX"
+		(at 163.83 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88a03722-70dc-4444-9624-60317c63bd4c")
+	)
 	(label "GND"
 		(at 107.95 205.74 270)
 		(effects
@@ -9795,6 +10039,16 @@
 			(justify right bottom)
 		)
 		(uuid "913f6efb-1257-4dc9-809d-f72a9c202c25")
+	)
+	(label "MD_ENA"
+		(at 368.3 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94274dea-b438-473a-86d1-f588528fe3f1")
 	)
 	(label "5V"
 		(at 215.9 170.18 180)
@@ -9886,6 +10140,16 @@
 		)
 		(uuid "a9572ba5-653e-4ab3-b8fb-9e20483ea46f")
 	)
+	(label "MD_IN2"
+		(at 368.3 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9d96068-3695-41fe-b68d-bf56c1d9a717")
+	)
 	(label "5V"
 		(at 306.07 218.44 180)
 		(effects
@@ -9895,6 +10159,16 @@
 			(justify right bottom)
 		)
 		(uuid "aa30936b-e3d5-481b-b558-16beb8f93c34")
+	)
+	(label "AMP_LRC"
+		(at 62.23 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aaa3431d-e664-4d90-aed1-0d1c963bd97a")
 	)
 	(label "DN"
 		(at 139.7 187.96 0)
@@ -9915,6 +10189,16 @@
 			(justify right bottom)
 		)
 		(uuid "ae16bb6d-28f6-4639-a266-a7a1771b1088")
+	)
+	(label "MD_IN2"
+		(at 163.83 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4b2c52a-e541-4f87-b7c9-5217f9c08394")
 	)
 	(label "GND"
 		(at 307.34 162.56 0)
@@ -9945,6 +10229,16 @@
 			(justify right bottom)
 		)
 		(uuid "b6c5b08b-a23f-4065-994d-8144bf285c85")
+	)
+	(label "MD_IN1"
+		(at 368.3 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b705572d-2c6d-46fb-943c-4d1e049feecd")
 	)
 	(label "GND"
 		(at 382.27 226.06 270)
@@ -10085,6 +10379,16 @@
 			(justify right bottom)
 		)
 		(uuid "db31715c-4ec4-4862-8524-1bb1828144cf")
+	)
+	(label "GND"
+		(at 368.3 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df239e4f-b806-4cdc-a7b9-93a74a58841d")
 	)
 	(label "IC_CC1"
 		(at 45.72 182.88 180)
@@ -10686,7 +10990,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "129d6e99-1d33-43ee-a98c-7028c949f731")
@@ -14198,7 +14502,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9ffb11-7a57-4a15-9390-edd879aab5c5")
@@ -14943,7 +15247,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a058bac1-3a9a-4d3f-b9be-0fd16c69e2bf")
@@ -15544,7 +15848,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "d60a0f53-5a15-4c12-839a-83fa814d5949")
 		(property "Reference" "J5"
@@ -16782,6 +17086,82 @@
 			(project ""
 				(path "/954dff68-cc85-452c-9053-ce35508878d2"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SpinnyKitty:Motor_Driver_Control")
+		(at 373.38 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff39f325-1115-4138-b7a3-214ca75aa8c5")
+		(property "Reference" "J9"
+			(at 377.19 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 377.19 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c15782c5-bf3b-4227-adbb-0b99b06330f3")
+		)
+		(pin "3"
+			(uuid "69100084-d973-4278-b698-c0c3ca020b34")
+		)
+		(pin "2"
+			(uuid "7088f736-b2cb-494c-9561-0bee66669025")
+		)
+		(pin "1"
+			(uuid "2b115395-4de7-4dd1-89b9-62fa78eeaa35")
+		)
+		(instances
+			(project ""
+				(path "/954dff68-cc85-452c-9053-ce35508878d2"
+					(reference "J9")
 					(unit 1)
 				)
 			)
