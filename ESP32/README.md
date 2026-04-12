@@ -110,10 +110,6 @@ Or click the plug icon in VS Code's bottom toolbar.
 | GPIO 4    | PA12           | One-way PWM/control signal from ESP32 to MSPM0 |
 | GND       | GND            | Common ground (required) |
 
----
-
----
-
 ### MSPM0 LaunchPad Jumper Configuration
 
 | Jumper | Setting | Notes |
@@ -122,6 +118,21 @@ Or click the plug icon in VS Code's bottom toolbar.
 | J22    | BP     | Routes PA11 to header (disconnects from debugger) |
 
 > **Important:** Both J21 and J22 must connect the center pin to **BP**, not **XDS**, to use UART with external devices.
+
+### ESP32 ↔ MSPM0G3507 — I2C Communication
+
+| ESP32 Pin | MSPM0G3507 Pin | Function | Notes |
+|-----------|----------------|----------|-------|
+| GPIO21    | PA0            | SDA      | I2C data line |
+| GPIO22    | PA1            | SCL      | I2C clock line |
+| GND       | GND            | Ground   | Common ground required |
+
+### We Need Pull Up Resistors!
+
+| Signal | Recommended Pull-Up | Notes |
+|--------|----------------------|-------|
+| SDA    | 2.2 kΩ to 3.3V       | Matches proven LaunchPad setup |
+| SCL    | 2.2 kΩ to 3.3V       | Matches proven LaunchPad setup |
 
 ---
 
