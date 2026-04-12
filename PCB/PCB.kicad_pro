@@ -190,7 +190,8 @@
         0.0,
         0.127,
         0.254,
-        0.381
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -548,7 +549,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../../Downloads/gerbertest/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
