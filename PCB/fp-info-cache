@@ -1,4 +1,4 @@
-27133551829380264
+27137103883413187
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98938,6 +98938,13 @@ Integrated Circuit
 6
 6
 SpinnyKitty
+DIP794W45P254L1930H508Q14
+
+
+0
+14
+14
+SpinnyKitty
 ESP32_30pin
 
 
@@ -99021,6 +99028,13 @@ Inductor
 0
 2
 2
+SpinnyKitty
+TL3305AF160QG
+TL3305AF160QG
+Switch
+0
+4
+4
 SpinnyKitty
 UJ20CVSMTTR68
 UJ20-C-V-SMT-TR-68-1

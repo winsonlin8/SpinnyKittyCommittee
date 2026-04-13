@@ -10,4 +10,5 @@
   (lib (name "PM5402_222NLT")(type "KiCad")(uri "${KIPRJMOD}/PM5402_222NLT.kicad_sym")(options "")(descr ""))
   (lib (name "SRR3818A-3R9Y")(type "KiCad")(uri "${KIPRJMOD}/SRR3818A-3R9Y.kicad_sym")(options "")(descr ""))
   (lib (name "TL3305AF260QG")(type "KiCad")(uri "${KIPRJMOD}/TL3305AF260QG.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74AHCT125N")(type "KiCad")(uri "${KIPRJMOD}/SN74AHCT125N.kicad_sym")(options "")(descr ""))
 )
