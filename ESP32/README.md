@@ -69,7 +69,7 @@ Or click the plug icon in VS Code's bottom toolbar.
 | GND           | GND       | Common ground |
 | BCLK          | GPIO 26   | I2S bit clock |
 | LRC / WS      | GPIO 25   | I2S word select / left-right clock |
-| DIN           | GPIO 22   | I2S audio data from ESP32 |
+| DIN           | GPIO 27   | I2S audio data from ESP32 |
 
 ---
 
