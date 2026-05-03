@@ -1,0 +1,7 @@
+"./i2c_target.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./ti/comm_modules/i2c/target/i2c_comm_target.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
