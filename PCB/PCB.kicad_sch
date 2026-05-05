@@ -8331,6 +8331,10 @@
 		(uuid "2e9e0d76-d1f5-4341-a3a3-f1c41c7121f2")
 	)
 	(no_connect
+		(at 123.19 156.21)
+		(uuid "2ec65861-ec97-4a99-9f19-1841dd1e6603")
+	)
+	(no_connect
 		(at 87.63 102.87)
 		(uuid "2fb745c5-0f13-4ea6-a1c7-f0b578abe27d")
 	)
@@ -8353,10 +8357,6 @@
 	(no_connect
 		(at 109.22 193.04)
 		(uuid "6709804a-a93f-49dd-9868-c41df58bc33e")
-	)
-	(no_connect
-		(at 87.63 123.19)
-		(uuid "6ed32ace-e113-4346-9d35-3df20daae5c5")
 	)
 	(no_connect
 		(at 332.74 127)
@@ -8593,6 +8593,16 @@
 			(type default)
 		)
 		(uuid "1a75d7c2-cb10-4918-bec5-01ddd25998be")
+	)
+	(wire
+		(pts
+			(xy 87.63 123.19) (xy 83.82 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9117b1-d81a-4fc7-8368-9ff37b8fae43")
 	)
 	(wire
 		(pts
@@ -9896,6 +9906,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 123.19) (xy 83.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef012e4-cde8-41a6-8149-eadb197e1e75")
+	)
+	(wire
+		(pts
 			(xy 297.18 179.07) (xy 304.8 179.07)
 		)
 		(stroke
@@ -9993,6 +10013,16 @@
 			(type default)
 		)
 		(uuid "dd070c66-bd5e-4f77-b0b6-992e88efba43")
+	)
+	(wire
+		(pts
+			(xy 83.82 130.81) (xy 77.47 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df30e609-37e8-4bc7-84fd-d9beec851170")
 	)
 	(wire
 		(pts
@@ -10595,7 +10625,7 @@
 		(uuid "337cb551-cab2-4e66-89b9-e838755f5c39")
 	)
 	(label "GND"
-		(at 71.12 138.43 270)
+		(at 59.69 137.16 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11765,7 +11795,7 @@
 		(uuid "d28cdc1b-0f2b-4390-b1cf-2ec4cdc454af")
 	)
 	(label "VCORE"
-		(at 71.12 133.35 180)
+		(at 59.69 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11783,6 +11813,16 @@
 			(justify right bottom)
 		)
 		(uuid "d5db1ed8-659e-494f-9958-38d9acf63136")
+	)
+	(label "GND"
+		(at 77.47 135.89 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8097295-1bd3-4317-979d-443a84f24d2c")
 	)
 	(label "GND"
 		(at 196.85 109.22 180)
@@ -15764,6 +15804,96 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 77.47 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bdb8102-b4da-4d97-8b11-61c7f1a3f9ad")
+		(property "Reference" "R23"
+			(at 80.01 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 80.01 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "708-RNCF0805TKT100K"
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://mou.sr/4c6uqfk"
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78d11bf2-d790-4ff9-8ceb-49cae3c40c21")
+		)
+		(pin "1"
+			(uuid "b0c3abe6-c532-4dfb-9af5-76aec5b77905")
+		)
+		(instances
+			(project "PCB"
+				(path "/954dff68-cc85-452c-9053-ce35508878d2"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 255.27 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18659,7 +18789,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 71.12 135.89 180)
+		(at 59.69 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18668,7 +18798,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5712c85-f9a3-48de-a453-fec9fbbea41a")
 		(property "Reference" "C37"
-			(at 73.66 134.6135 0)
+			(at 62.23 133.3435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18677,7 +18807,7 @@
 			)
 		)
 		(property "Value" "0.47uF"
-			(at 73.66 137.1535 0)
+			(at 62.23 135.8835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18686,7 +18816,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 71.12 135.89 0)
+			(at 59.69 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18695,7 +18825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 135.89 0)
+			(at 59.69 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18704,7 +18834,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 135.89 0)
+			(at 59.69 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18713,7 +18843,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-08055C474K4T4A"
-			(at 71.12 135.89 90)
+			(at 59.69 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18723,7 +18853,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://mou.sr/4mquvOw"
-			(at 71.12 135.89 90)
+			(at 59.69 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
