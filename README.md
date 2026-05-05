@@ -29,15 +29,15 @@ The system is powered via a 5V USB connection and streams audio and motor moveme
 
 The system is built around two microcontrollers:
 
-- **ESP32** (Main Compute) — handles audio decoding and playback, microSD streaming via SPI, I2S audio output to the amplifier and input from the microphone, button input handling, and UART communication to the peripheral controller.
-- **MSPM0G3507** (Peripheral Control) — receives commands from the ESP32 over UART and drives the motor via PWM/GPIO to the L298N motor driver, and controls the WS2812 LED ring over a 1-wire interface.
+- **ESP32** (Main Compute) — handles audio decoding and playback, microSD streaming via SPI, I2S audio output to the amplifier and input from the microphone, button input handling, and I2C communication to the peripheral controller.
+- **MSPM0G3507** (Peripheral Control) — receives commands from the ESP32 over I2C and drives the motor via PWM/GPIO to the L298N motor driver, and controls the WS2812 LED ring over a 1-wire interface.
 
 ### Component Summary
 
 | Component | Role |
 |---|---|
-| ESP32 | Main compute: audio, SD, buttons, UART |
-| MSPM0G3507 | Peripheral control: motor, LEDs |
+| ESP32 | Main compute: audio, SD, buttons, I2C master |
+| MSPM0G3507 | Peripheral control: motor, LEDs (I2C target) |
 | ADA254 (microSD Breakout) | Music and movement file storage (SPI) |
 | ICS-43434 | MEMS microphone (I2S) |
 | MAX98357A | I2S Class D amplifier |
